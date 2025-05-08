@@ -152,15 +152,16 @@
 }
 .heade {
     color: rgb(255, 255, 255);
-    font-family: "Rubik Mono One", monospace;
+    font-family: "Rubik Mono One", monospace, sans-serif;
     background-color: rgb(20, 20, 20);
-    text-align: left;
-    padding: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     z-index: 1;
-    text-shadow: 3px 0px 3px purple;
+    text-shadow: 3px 0 3px purple;
     font-size: 30px;
-    margin-top: -110px;
-    margin-left: 110px;
+    padding: 10px 10px;
+    margin-right: 30%;
 }
 .sk {
     z-index: 2;
@@ -172,4 +173,7 @@
     z-index: 3;
     padding-top: 0px;
     margin-left: 0px;
+}
+.tablees {
+    padding-bottom: 5%;
 }
