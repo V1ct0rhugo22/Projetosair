@@ -1,0 +1,175 @@
+.fundoprincipal {
+    background-image: url(../imagensprincipais.html/fundoteste6.webp);
+    max-width: 100%;
+    height: 100dvh;
+    background-size: 100% 100%;
+}
+
+
+      
+.blur {
+    position: relative;
+    z-index: 2;
+    width: 450px;
+    height: 570px;
+    left: -15px;
+    top: -1150px;
+    opacity: 70%;
+    
+}  
+.fotoprincipal {
+    position: relative;
+    z-index: 3;
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    left: 330px;
+    top: -1300px;
+    border: solid 2px white;
+    
+}  
+.texto1  {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    color: white;
+    text-shadow: 3px 0px 3px purple;
+    margin-right: 850px;
+    margin-top: 40px;
+    position: relative;
+
+    }
+.subtitulo1 {
+    margin-right: 800px;
+    margin-top: 30px;
+    position: relative;
+    color: white;
+    font-family: "telegraf", monospace;
+    
+}
+.subtitulo2 {
+    margin-right: 800px;
+    margin-top: 0px;
+    position: relative;
+    color: white;
+    z-index: 1;
+    font-family: "telegraf", monospace;
+ 
+}
+
+.linha {
+    color: #fd288d;
+    margin-right: 800px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+.categoria{
+    color: #fd288d;
+    font-family: "telegraf", monospace;
+    z-index: 1;
+    padding-left: 80px;
+    
+}
+.categorias {
+    position: relative;
+    color: #fd288d;
+    font-family: "gagalin", monospace;
+    padding-left: 140px;
+    padding-right: 120px;
+    z-index: 1;
+    letter-spacing: 3px;
+
+}
+
+.saiba {
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: "Audiowide", sans-serif;
+    
+}
+.baiba {
+    background-color: #fd288d;
+    max-width: 130px;
+    border-radius: 30px;
+    margin-left: -800px;
+}
+.lugares {
+    color: white;
+    padding: 30px;
+}
+.container{
+    padding: 20px;
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fd288d;
+    background-color: black;
+}
+.thh {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.img{
+    border-radius: 0%;
+    padding: 20px;
+}
+
+.hrefad {
+    text-decoration: none;
+    color: #fd288d;
+}
+.adultoss {
+    margin-left: 100px;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    
+    
+}
+.adolescentess {
+    margin-left: 140px;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+}
+.familia {
+    margin-left: 100px;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+}
+.pp {
+    background-color: black;
+    border: solid #fd288d;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 5px;
+}
+.heade {
+    color: rgb(255, 255, 255);
+    font-family: "Rubik Mono One", monospace;
+    background-color: rgb(20, 20, 20);
+    text-align: left;
+    padding: 20px;
+    z-index: 1;
+    text-shadow: 3px 0px 3px purple;
+    font-size: 30px;
+    margin-top: -110px;
+    margin-left: 110px;
+}
+.sk {
+    z-index: 2;
+    margin-top: 20px;
+
+    
+}
+.ins {
+    z-index: 3;
+    padding-top: 0px;
+    margin-left: 0px;
+}

@@ -1,0 +1,127 @@
+#hrefa {
+    animation: teste 1.4s ease-in-out forwards;
+    
+}
+
+@keyframes teste {
+    0% {
+        transform: translateY(400px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.bodi {
+    background-image: url(../imagensprincipais.html/fundoteste6.webp);
+    max-width: 100%;
+    height: 100dvh;
+    background-size: 100% 100%;
+}
+
+#globo {
+    animation: globo 3s ease-out;
+}
+@keyframes globo {
+    0% {
+        transform: translateY(-600px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.globor {
+    filter: grayscale(0%);
+    border-radius: 100%;
+   
+    
+}
+.globorr {
+    position: relative;
+    top: -40px;
+    
+}
+
+#aprov {
+    animation: aprov 4s ease-out;
+}
+@keyframes aprov {
+    0% {
+        transform: translateY(-400px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.sitis {
+    font-family: "Rubik Mono One", monospace;
+    color: white;
+    text-shadow: 3px 0px 3px purple;
+    position: relative;
+    font-size: 25px;
+}
+.wrapper {
+    max-width: 600px;
+    margin-inline: auto;
+    padding-bottom: 300px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    transform-style: preserve-3d;
+    pointer-events: none;
+}
+.image {
+    flex: 1;
+    aspect-ratio: 1 / 1.5;
+    cursor: pointer;
+    pointer-events: auto;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+    transition: 0.4s;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    
+    
+}
+.image img {
+    display: block;
+    width: 120px;
+    aspect-ratio: 1/1.5;
+    object-fit: cover;
+    border-radius: 4px;
+    border: solid white;
+
+
+}
+.image:hover {
+    transform: scale(1.6);
+}
+.gallery:hover > :not(:hover) {
+    margin-inline: -1.5rem;
+    transform: perspective(400px) rotateY(30deg) scale(1.0);
+
+}
+image:hover ~ .image {
+    transform: perspective(400px) rotateY(-30deg) scale(2.0);
+}
+.linha {
+    color: white;
+}
+.heade {
+    color: rgb(255, 255, 255);
+    font-family: "Rubik Mono One", monospace;
+    background-color: rgb(20, 20, 20);
+    text-align: left;
+    padding: 20px;
+    z-index: 2;
+    text-shadow: 3px 0px 3px purple;
+    font-size: 30px;
+    margin-top: -100px;
+    margin-left: 110px;
+}
+.sk {
+    z-index: 1;
+    
+}
